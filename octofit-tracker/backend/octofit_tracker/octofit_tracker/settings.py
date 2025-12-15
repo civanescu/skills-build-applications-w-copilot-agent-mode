@@ -1,3 +1,4 @@
+# Add a ForeignKey from User to Team dynamically if not using a custom user model
 """
 Django settings for octofit_tracker project.
 
@@ -46,6 +47,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'dj_rest_auth.registration',
     'corsheaders',
+    'octofit_data',
 ]
 
 MIDDLEWARE = [
